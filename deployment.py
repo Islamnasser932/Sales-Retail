@@ -13,9 +13,6 @@ from sklearn.metrics import mean_absolute_error,mean_squared_error,r2_score,root
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestRegressor
 import streamlit as st
-from numerize.numerize import numerize
-from streamlit_option_menu import option_menu
-import time
 
 # color plate
 colors10 = ['#387478', '#4682B4', '#32CD32', '#FFD700','#001F3F','#B17457','#F2E5BF','#DA8359','#FFD09B','#A66E38']  # You can define your own colors
